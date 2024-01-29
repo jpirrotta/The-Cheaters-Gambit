@@ -16,7 +16,7 @@ const Header: React.FC = () => {
                 {/* Logo */}
                 <div className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image width={512} height={512} className="h-8 w-8" src="/cheatersgambit.png" alt="Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">The Cheaters Gambit</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">The Cheaters Gambit</span>
                 </div>
 
                 {/* Hamburger Button for small screens to open a menu */}
@@ -30,13 +30,13 @@ const Header: React.FC = () => {
                 {/* Menu */}
                 <div className={isOpen ? "w-full md:block md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                        <Link className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" href='/game'>Create New Game</Link>
                         <li className="px-4 py-2">
                             <Link href='/'>
                                 Home
                             </Link>
                         </li>
                         <li className="px-4 py-2"><a href='https://jessepirrotta.dev' target='_none'>The Developer</a> </li>
+                        <Link className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded" href='/game'>🎮Download on Itch!🎮</Link>
                     </ul>
                 </div>
             </div>
