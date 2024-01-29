@@ -30,4 +30,4 @@ Yes! I plan on having a few different game modes that players can choose from!
 - MongoDB
 
 ### Game Development
-Godot
+- Godot
