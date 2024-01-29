@@ -17,7 +17,7 @@ export default function Home() {
             objectFit="cover"
             className="my-4"
           />
-          <p className="mb-4 text-white">A chess game where the AI can cheat!</p>
+          <p className="mb-4 text-white">Chess where cheating is allowed!</p>
           <a
             href="https://github.com/jpirrotta/The-Cheaters-Gambit"
             target="_blank"
