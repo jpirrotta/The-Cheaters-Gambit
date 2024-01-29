@@ -18,3 +18,14 @@ Yes! I plan on having a few different game modes that players can choose from!
 4. Profiles and Ranking System/Leaderboard
 5. Challenge Mode (Player with no cheats vs. Cheating AI)
 6. Mobile Build
+
+
+### Tech Stack
+## Front-End:
+- React.JS
+- Phaser.JS
+- Tailwind CSS
+
+## Backend
+- Nakama 
+- MongoDB
