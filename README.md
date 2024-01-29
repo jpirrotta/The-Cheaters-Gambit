@@ -1,4 +1,4 @@
-# The-Cheaters-Gambit
+# The Cheater's Gambit
 ## The chess game with a twist!
 
 
@@ -20,12 +20,14 @@ Yes! I plan on having a few different game modes that players can choose from!
 6. Mobile Build
 
 
-### Tech Stack
-## Front-End:
-- React.JS
-- Phaser.JS
+## Tech Stack
+### Front-End:
+- Next JS
 - Tailwind CSS
 
-## Backend
+### Backend
 - Nakama 
 - MongoDB
+
+### Game Development
+Godot
